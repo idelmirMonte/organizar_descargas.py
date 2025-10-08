@@ -1,7 +1,3 @@
-Perfecto 👌 Aquí tienes un **README.md** completamente listo para subir a tu repositorio de GitHub, adaptado a tu caso (carpeta `D:\Descargas` y archivo `organizar_descargas.py`).
-Puedes copiarlo tal cual o guardarlo directamente como `README.md` junto a tu script:
-
----
 
 ````markdown
 # 🗂️ Organizador Automático de Descargas
