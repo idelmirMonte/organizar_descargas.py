@@ -1,6 +1,6 @@
 
 ````markdown
-# 🗂️ Organizador Automático de Descargas
+#  Organizador Automático de Descargas
 
 Este script en Python organiza automáticamente los archivos que se descargan en tu carpeta **Descargas**, moviéndolos a subcarpetas según su tipo (PDF, imágenes, música, etc.).  
 Por ejemplo, si descargas un archivo `.pdf`, se moverá automáticamente a `D:\Descargas\PDF`.
@@ -16,7 +16,7 @@ Por ejemplo, si descargas un archivo `.pdf`, se moverá automáticamente a `D:\D
 
 ---
 
-## ⚙️ Requisitos
+##  Requisitos
 
 - **Windows 10/11**
 - **Python 3.8 o superior**  
@@ -25,7 +25,7 @@ Por ejemplo, si descargas un archivo `.pdf`, se moverá automáticamente a `D:\D
 
 ---
 
-## 📁 Configuración del Script
+##  Configuración del Script
 
 1. Abre el archivo `organizar_descargas.py`.
 2. Verifica que la ruta de descargas esté configurada correctamente:
@@ -39,7 +39,7 @@ Por ejemplo, si descargas un archivo `.pdf`, se moverá automáticamente a `D:\D
 
 ---
 
-## ▶️ Ejecución manual
+##  Ejecución manual
 
 Desde la carpeta donde guardaste el script, abre **PowerShell** o **CMD** y ejecuta:
 
@@ -49,7 +49,7 @@ python organizar_descargas.py
 
 ---
 
-## 🧩 Crear un ejecutable (.exe)
+##  Crear un ejecutable (.exe)
 
 Si prefieres que el programa funcione sin necesidad de abrir Python:
 
@@ -79,9 +79,9 @@ Si prefieres que el programa funcione sin necesidad de abrir Python:
 
 ---
 
-## 💡 Ejecutar el script al iniciar Windows
+##  Ejecutar el script al iniciar Windows
 
-### 🔸 Opción 1 — Carpeta de inicio (más fácil)
+###  Opción 1 — Carpeta de inicio (más fácil)
 
 1. Presiona **Win + R** y escribe:
 
@@ -95,7 +95,7 @@ Si prefieres que el programa funcione sin necesidad de abrir Python:
 
    > Así se ejecutará automáticamente cada vez que inicies sesión.
 
-🕒 **Opcional:** si quieres retrasar su ejecución unos segundos (por ejemplo, 30 segundos), crea un archivo `.bat` con este contenido:
+ **Opcional:** si quieres retrasar su ejecución unos segundos (por ejemplo, 30 segundos), crea un archivo `.bat` con este contenido:
 
 ```bat
 @echo off
@@ -108,7 +108,7 @@ Coloca ese `.bat` en la carpeta `shell:startup` en lugar del `.exe`.
 
 ---
 
-### 🔸 Opción 2 — Programador de tareas (más avanzado)
+###  Opción 2 — Programador de tareas (más avanzado)
 
 1. Abre **Programador de tareas** (Task Scheduler).
 2. Crea una nueva tarea:
@@ -126,7 +126,7 @@ Coloca ese `.bat` en la carpeta `shell:startup` en lugar del `.exe`.
 
 ---
 
-## 🧠 Personalización
+##  Personalización
 
 Puedes editar el diccionario `destinos` para agregar nuevas categorías o extensiones.
 Ejemplo:
@@ -144,7 +144,7 @@ destinos = {
 
 ---
 
-## 🧾 Registro (opcional)
+##  Registro (opcional)
 
 Si quieres guardar un registro de los archivos movidos, puedes añadir al script:
 
@@ -165,7 +165,7 @@ log(f"Movido: {archivo} -> {destino}")
 
 ---
 
-## 🧰 Solución de problemas
+##  Solución de problemas
 
 | Problema                      | Posible solución                                                                           |
 | ----------------------------- | ------------------------------------------------------------------------------------------ |
@@ -176,22 +176,18 @@ log(f"Movido: {archivo} -> {destino}")
 
 ---
 
-## 🪪 Licencia
+##  Licencia
 
 Este proyecto está bajo la **licencia MIT**, lo que significa que puedes usarlo, modificarlo y distribuirlo libremente, siempre dando crédito al autor original.
 
 ---
 
-## 💬 Contribuciones
+##  Contribuciones
 
 ¡Contribuciones son bienvenidas!
 Puedes crear un _pull request_ o abrir un _issue_ si tienes ideas para mejorar el proyecto (por ejemplo, interfaz gráfica, categorías automáticas, integración con fechas, etc.).
 
 ---
 
-Hecho con 💻 por [IdelmirMonte]
+Hecho por [IdelmirMonte]
 
-```
-
-
-```
